@@ -1,0 +1,120 @@
+/* https://drewish.com/tools/vertical-rhythm/ */
+body { 
+ font-size: 14px; font-family: Arial, sans-serif; } 
+
+ul, p { 
+ margin: 0 0 1.5em 0; 
+ text-indent: 1.5em;
+ }
+
+ /* 72px - The quick brown fox jumps over the lazy dog */
+.class-for-72px { 
+ font-size: 5.1429em; /* 72px */
+ line-height: 1.1667em; /* 84px */
+ margin-top: 0.2917em; 
+ margin-bottom: 0em; }
+
+/* 48px - The quick brown fox jumps over the lazy dog */
+.class-for-48px { 
+ font-size: 3.4286em; /* 48px */
+ line-height: 1.3125em; /* 63px */
+ margin-top: 0.4375em; 
+ margin-bottom: 0em; }
+
+/* 36px - The quick brown fox jumps over the lazy dog */
+.class-for-36px { 
+ font-size: 2.5714em; /* 36px */
+ line-height: 1.1667em; /* 42px */
+ margin-top: 0.5833em; 
+ margin-bottom: 0em; }
+
+/* 28px - The quick brown fox jumps over the lazy dog */
+h1, .class-for-28px { 
+ font-size: 2em; /* 28px */
+ line-height: 1.5em; /* 42px */
+ margin-top: 0.75em; 
+ margin-bottom: 0em; }
+
+/* 26px - The quick brown fox jumps over the lazy dog */
+.class-for-26px { 
+ font-size: 1.8571em; /* 26px */
+ line-height: 1.6154em; /* 42px */
+ margin-top: 0.8077em; 
+ margin-bottom: 0em; }
+
+/* 24px - The quick brown fox jumps over the lazy dog */
+h2, .class-for-24px { 
+ font-size: 1.7143em; /* 24px */
+ line-height: 1.75em; /* 42px */
+ margin-top: 0.875em; 
+ margin-bottom: 0em; }
+
+/* 22px - The quick brown fox jumps over the lazy dog */
+.class-for-22px { 
+ font-size: 1.5714em; /* 22px */
+ line-height: 1.9091em; /* 42px */
+ margin-top: 0.9545em; 
+ margin-bottom: 0em; }
+
+/* 20px - The quick brown fox jumps over the lazy dog */
+h3, .class-for-20px { 
+ font-size: 1.4286em; /* 20px */
+ line-height: 1.05em; /* 21px */
+ margin-top: 1.05em; 
+ margin-bottom: 0em; }
+
+/* 18px - The quick brown fox jumps over the lazy dog */
+.class-for-18px { 
+ font-size: 1.2857em; /* 18px */
+ line-height: 1.1667em; /* 21px */
+ margin-top: 1.1667em; 
+ margin-bottom: 0em; }
+
+/* 16px - The quick brown fox jumps over the lazy dog */
+h4, .class-for-16px { 
+ font-size: 1.1429em; /* 16px */
+ line-height: 1.3125em; /* 21px */
+ margin-top: 1.3125em; 
+ margin-bottom: 0em; }
+
+/* 14px - The quick brown fox jumps over the lazy dog */
+.class-for-14px { 
+ font-size: 1em; /* 14px */
+ line-height: 1.5em; /* 21px */
+ margin-top: 1.5em; 
+ margin-bottom: 0em; }
+
+/* 12px - The quick brown fox jumps over the lazy dog */
+h5, .class-for-12px { 
+ font-size: 0.8571em; /* 12px */
+ line-height: 1.75em; /* 21px */
+ margin-top: 1.75em; 
+ margin-bottom: 0em; }
+
+/* 11px - The quick brown fox jumps over the lazy dog */
+.class-for-11px { 
+ font-size: 0.7857em; /* 11px */
+ line-height: 1.9091em; /* 21px */
+ margin-top: 1.9091em; 
+ margin-bottom: 0em; }
+
+/* 10px - The quick brown fox jumps over the lazy dog */
+h6, .class-for-10px { 
+ font-size: 0.7143em; /* 10px */
+ line-height: 2.1em; /* 21px */
+ margin-top: 2.1em; 
+ margin-bottom: 0em; }
+
+/* 9px - The quick brown fox jumps over the lazy dog */
+.class-for-9px { 
+ font-size: 0.6429em; /* 9px */
+ line-height: 2.3333em; /* 21px */
+ margin-top: 2.3333em; 
+ margin-bottom: 0em; }
+
+/* 8px - The quick brown fox jumps over the lazy dog */
+.class-for-8px { 
+ font-size: 0.5714em; /* 8px */
+ line-height: 2.625em; /* 21px */
+ margin-top: 2.625em; 
+ margin-bottom: 0em; }

@@ -1,0 +1,349 @@
+body {
+    background-color: #EEEEEE;
+}
+#accord{
+    lefT:220px;
+}
+#menu {
+    height: 100px;
+    left: 50%;
+    margin: 0 0 0 -295px;
+    position: fixed;
+    top: 15px;
+    width: 590px;
+}
+#logo {
+    left: 50%;
+    margin-left: -490px;
+    position: fixed;
+    top: 230px;
+    transform: rotate(-40deg);
+}
+#abt, #srv, #slt, #cnt {
+    background-color: #FFFFFF;
+    border: 4px solid #CCCCCC;
+    color: #333333;
+    font-weight: bold;
+    height: 100px;
+    line-height: 100px;
+    position: absolute;
+    text-align: center;
+    width: 140px;
+}
+#srv_blc {
+    background: url(../img/nature.jpg) no-repeat fixed center 0 / auto 1200px rgba(0, 0, 0, 0);
+}
+#abt_blc, #srv_blc, #slt_blc {
+    background-color: #777777;
+    height: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 1000px;
+}
+#cnt_blc {
+    background-color: #555555;
+    height: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 1000px;
+}
+#abt-mous, #srv-mous, #slt-mous, #cnt-mous {
+    height: 108px;
+    position: absolute;
+    width: 148px;
+}
+#abt, #abt-mous {
+    left: 0;
+    top: 0;
+}
+#srv, #srv-mous {
+    left: 150px;
+    top: 0;
+}
+#slt, #slt-mous {
+    left: 300px;
+    top: 0;
+}
+#cnt, #cnt-mous {
+    left: 450px;
+    top: 0;
+}
+#img3, #img4 {
+    color: #000000;
+    font-family: 'Times';
+    font-size: 350px;
+    font-weight: bolder;
+    left: 25px;
+    line-height: 300px;
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    text-indent: 0;
+    top: 300px;
+    transform: rotate(-10deg);
+}
+#img3 {
+    color: #FFFFFF;
+}
+#abt_blc img {
+    border: 10px solid #FFFFFF;
+    display: block;
+    margin: 0;
+    position: absolute;
+}
+#slide {
+    background-color: #333333;
+    border: 2px solid #222222;
+    border-radius: 40px;
+    opacity: 0.7;
+    padding: 50px 0;
+    position: absolute;
+    top: 130px;
+    width: 670px;
+}
+#slide p {
+    background-color: #FFFFFF;
+    margin: 10px 85px 20px;
+    padding: 15px 10px;
+    width: 480px;
+}
+#slide h1 {
+    color: #EEEEEE;
+    font-weight: bold;
+    margin: 20px 95px 0;
+}
+#slide {
+    left: 165px;
+}
+#slide img {
+    border: 0 none;
+    position: absolute;
+    top: 2px;
+}
+#arr_1 {
+    cursor: pointer;
+    left: 2px;
+    transform: rotate(135deg);
+}
+#arr_2 {
+    cursor: pointer;
+    right: 2px;
+    transform: rotate(135deg);
+}
+#accord {
+    position: absolute;
+    top: 200px;
+}
+#accord > div {
+    background-color: #333333;
+    border: 2px solid #222222;
+    border-radius: 0 0 0 40px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    height: 500px;
+    margin: 0 2px;
+    opacity: 0.7;
+    overflow: hidden;
+    position: relative;
+    width: 70px;
+}
+#accord > div * {
+}
+#accord > div > div {
+    background-color: #FFFFFF;
+    color: #000000;
+    margin-left: 70px;
+    padding: 10px;
+    position: relative;
+    width: 380px;
+}
+#accord > div > img {
+    margin: 70px;
+}
+#accord > div > p {
+    bottom: -20px;
+    line-height: 70px;
+    position: absolute;
+    transform: rotate(-90deg);
+    width: 70px;
+}
+#prev, #next {
+    background-color: #333333;
+    border: 2px solid #222222;
+    color: #FFFFFF;
+    font-size: 100px;
+    height: 350px;
+    line-height: 350px;
+    opacity: 0.7;
+    position: absolute;
+    text-align: center;
+    top: 250px;
+    width: 70px;
+}
+#prev {
+    border-left: 0 none;
+    border-radius: 0 40px 40px 0;
+    cursor: pointer;
+    left: 0;
+}
+#next {
+    border-radius: 40px 0 0 40px;
+    border-right: 0 none;
+    cursor: pointer;
+    right: 0;
+}
+#prev img {
+    transform: rotate(45deg);
+}
+#next img {
+    transform: rotate(225deg);
+}
+#cmnt, #frm {
+    background-color: #333333;
+    border: 2px solid #222222;
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: bold;
+    left: 0;
+    line-height: 50px;
+    opacity: 0.7;
+    position: absolute;
+    text-align: center;
+    width: 1000px;
+}
+#cmnt {
+    height: 50px;
+    top: 650px;
+}
+#cleft {
+    bottom: 10px;
+    color: #FFFFFF;
+    font-size: 42px;
+    line-height: 52px;
+    margin: 0;
+    position: absolute;
+    right: 15px;
+    text-align: right;
+}
+#cleft span:first-child {
+    display: inline-block;
+    font-size: 60px;
+    margin-right: -50px;
+    transform: rotate(180deg);
+}
+#slt_blc {
+    background: url(../img/drink_1.jpg) no-repeat fixed center 0 #777777;
+}
+#cnt_blc {
+    background: url(../img/drink_2.jpg) no-repeat fixed center 0 #555555;
+}
+#frm, #frm_txt {
+    font-weight: normal;
+    left: 173px;
+    position: relative;
+    top: 90px;
+}
+#frm {
+    height: 654px;
+    width: 650px;
+}
+#frm_txt {
+    color: #FFFFFF;
+    width: 654px;
+}
+.bord table tr > td + td {
+    padding: 0 0 0 10px;
+    text-align: left;
+    width: 200px;
+}
+.bord table tr > td:first-child {
+    text-align: right;
+}
+select {
+    width: 120px;
+}
+.bord table td {
+    font-size: 21px;
+    height: 21px;
+    padding: 1px;
+}
+.bord table {
+    display: block;
+    margin: 0 0 0 15px;
+}
+select {
+    font-size: 20px;
+    width: 200px;
+}
+.bord, .control {
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    left: 400px;
+    margin: 15px 0 0;
+    position: relative;
+}
+.bord {
+    width: 232px;
+}
+.control table tr:first-child {
+    border-bottom: 1px solid #FFFFFF;
+}
+.control table tr:last-child {
+    border-top: 1px solid #FFFFFF;
+}
+.control table td:first-child {
+    border-right: 1px solid #FFFFFF;
+}
+.control table td:last-child {
+    border-left: 1px solid #FFFFFF;
+}
+.control table td {
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+    width: 0;
+}
+.control table {
+    line-height: 0;
+    margin: 10px;
+}
+.control {
+    width: 148px;
+}
+#img_ddlist {
+    border-bottom: 2px solid #FFFFFF;
+    border-radius: 0 10px 10px 0;
+    border-right: 2px solid #FFFFFF;
+    border-top: 2px solid #FFFFFF;
+    height: 295px;
+    position: absolute;
+    top: 15px;
+    width: 385px;
+}
+#img_ddlist select {
+    display: block;
+    margin: 0 auto;
+    width: 340px;
+	height:21px
+}
+#img_ddlist div {
+    background-color: #222222;
+    height: 220px;
+    margin: 15px auto;
+    position: relative;
+    width: 340px;
+	color: #707070;
+	line-height: 220px;
+}
+#img_ddlist div img {
+    margin: 5px auto 0;
+}
+select, input {
+    border-style: none;
+}
+.list-14px{
+	margin:2px 0 3px 0;
+}

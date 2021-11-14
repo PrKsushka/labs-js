@@ -1,0 +1,55 @@
+{
+  "name": "carosans",
+  "version": "3.0.0-alpha",
+  "description": "Carosans",
+  "main": "src/js/index.js",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/preset-env": "^7.12.1",
+    "cssnano": "^4.1.10",
+    "eslint": "^7.12.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "husky": "^4.3.0",
+    "jest": "^26.6.1",
+    "postcss": "^8.1.4",
+    "postcss-cli": "^8.1.0",
+    "stylelint": "^13.7.2",
+    "stylelint-config-standard": "^20.0.0",
+    "webpack": "^5.3.2",
+    "webpack-cli": "^4.1.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "lint:css": "stylelint \"**/*.css\" \"!**/dist/**\"",
+    "lint:js": "eslint --ext .js ./ --ignore-pattern dist",
+    "lint": "npm run lint:css & npm run lint:js",
+    "build:js": "webpack",
+    "build:css": "postcss -u cssnano --no-map -o dist/carousel.min.css src/css/carousel.css",
+    "build": "npm run build:js & npm run build:css"
+  },
+    "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint:css & npm run lint:js"
+    }
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrasna/carosans.git"
+  },
+  "author": "Andras Nagy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrasna/carosans/issues"
+  },
+  "homepage": "https://github.com/andrasna/carosans#readme"
+}

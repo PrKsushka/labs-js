@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	  <form action="" onsubmit="set_cookie('encrypted_cookie', encrypt_cookie(this.text.value, this.key.value)); return false;">
+      <input type="text" name="text" required placeholder="текст для шифрования"/>
+      <input type="text" name="key" required placeholder="ключ шифра"/>
+      <button>Зашифровать</button>
+        <button onclick="alert(get_cookie('encrypted_cookie'))">Зашифрованное значение</button>
+      <button onclick="alert(decrypt_cookie(get_cookie('encrypted_cookie')))" >Расшифрованное значение</button>
+  </form>
+	<script src='./script.js'></script>
+	<script src='./descr.js'></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link href="./style.css" rel="stylesheet">
+	</head>
+	<body>
+
+<div class="main">
+	<div class="wrapper"><span class="fio">ФИО</span><input type="text" name="nameSurname" data-rule="text"></div><br>
+	<div class="wrapper"><span>Пароль</span><input type="password" name="password" data-rule="password"></div><br>
+	<div class="wrapper"><span class="phone">Контактный телефон</span><input type="tel" name="telephone" data-rule="tel"></div><br>
+	<div class="wrapper adres"><span>Адрес электронной почты</span><input type="email" name="email" data-rule="email"></div><br>
+
+	<textarea  placeholder="Введите текст" cols="40" rows="3" id="myText"></textarea><br>
+	<input type="text" placeholder="Заменить с" id="changeFrom"> 
+	<input type="text" placeholder="на" id="changeTo"><br>
+	<input type="checkbox" id="cap">Без учёта регистра<br><br>
+	<div id="result"></div>
+	<input type="button" onClick="letterChange();" value="Результат" class="my"> <br>
+
+
+
+	<input type="text" id="date1" placeholder="Введите дату"> <br>
+	<input type="text" id="list" placeholder="Введите название предмета" autocomplete="off">
+	<div id="konech"></div> 
+	<span id="disc"></span>
+	<span id="day"></span>
+	<span id="month"></span>
+	<span id="year"></span><br>
+	<input type="radio" name="d">День<br>
+	<input type="radio" name="d">Месяц<br>
+	<input type="radio" name="d">Год<br>
+	<input type="radio" name="d">День и месяц<br>
+	<input type="radio" name="d">Месяц и год<br>
+	<input type="radio" name="d" checked>День, месяц и год<br><br>
+	<input type="button" onClick="zadanie6();" value="Нажмите"> <br>
+
+
+
+<div class="date">До экзамена осталось:</div>
+<div id="res"></div>
+	<input type="text" id="date2" placeholder="Введите дату и время"><br>
+	<input type="checkbox" id="mon">Месяцев<br>
+	<input type="checkbox" id="weeks">Недель<br>
+	<input type="checkbox" id="days">Дней<br>
+	<input type="checkbox" id="monweeks">Месяцев и недель<br>
+	<input type="checkbox" id="hours">Часов<br>
+	<input type="checkbox" id="minutes">Минут<br>
+	<input type="checkbox" id="hoursandminutes">Часов и минут<br>
+	<input type="checkbox" id="all" checked>Выбрать всё<br><br>
+	<input type="button" onClick="zadacha7();" value="Результат" class="last"> <br>
+
+
+	<textarea  cols="50" rows="3" id="textic" ></textarea><br>
+	<input type="text" id="sub" placeholder="Заменить с"> <input type="text" id="tosub" placeholder="На"><br>
+	<input type="checkbox" id="word" checked>Переместить слово<br>
+	<div id="poluch"></div>
+	<input type="button" onClick="zadanie8();" value="Результат" class="nine"> <br>
+
+	<input type="text" id="arr" placeholder="Введите знаения массива через запятую" class="zap"> <br>
+	<p id="comp"></p>
+	<div id="myel"></div>
+	<input type="radio" name="sort">Merge Sort<br>
+	<input type="radio" name="sort">Selection Sort<br>
+	<input type="radio" name="sort" checked>Quick Sort<br>
+	<p id="first"></p>
+	<p id="second"></p>
+	<p id="third"></p><br>
+	<input type="button" onClick="zadanie9();" value="Результат" class="massiv"><br>
+
+<div class="smile">Введите смайлик из знаков пунктуации</div>
+	<textarea id="comment4"  cols="40" rows="3"></textarea><br>
+	<p id="smile"></p>
+	<input type="button" onClick="zadanie10();" value="Посчитать"><br>
+
+
+    <input type="reset" value="Очистить все поля" class="ochistka">
+</div>
+
+		<script src="./Lab.js"></script>
+		<script src="./script.js"></script>
+	</body>
+</html>
